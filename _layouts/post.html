@@ -2,6 +2,13 @@
 layout: default
 ---
 
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item black-link"><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+    </ol>
+</nav>
+
 <article>
     <h2>{{ page.title }}</h2>
     <p>{{ page.date | date: "%B %d, %Y" }}</p>
