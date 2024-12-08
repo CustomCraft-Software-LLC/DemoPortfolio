@@ -1,0 +1,61 @@
+.
+├── 404.html
+├── about.html
+├── assets
+│   ├── js
+│   │   └── modeTheme.js
+│   └── styles
+│       └── main.scss
+├── blog.html
+├── _config.yml
+├── contact.html
+├── _data
+├── _drafts
+├── Gemfile
+├── Gemfile.lock
+├── git_log.txt
+├── _includes
+│   ├── footer.html
+│   ├── header.html
+│   └── head.html
+├── index.html
+├── _layouts
+│   ├── default.html
+│   └── post.html
+├── LICENSE
+├── portfolio.html
+├── _posts
+│   ├── 2024-04-19-first.markdown
+│   └── 2024-04-19-welcome-to-jekyll.markdown
+├── README.md
+├── _sass
+│   ├── _base.scss
+│   ├── _color.scss
+│   ├── _footer.scss
+│   └── _header.scss
+├── _site
+│   ├── 2024
+│   │   └── 04
+│   │       └── 19
+│   │           ├── first.html
+│   │           └── welcome-to-jekyll.html
+│   ├── 404.html
+│   ├── about.html
+│   ├── assets
+│   │   ├── css
+│   │   │   └── style.css
+│   │   ├── js
+│   │   │   └── modeTheme.js
+│   │   └── styles
+│   │       └── main.css
+│   ├── blog.html
+│   ├── contact.html
+│   ├── feed.xml
+│   ├── git_log.txt
+│   ├── index.html
+│   ├── LICENSE
+│   ├── portfolio.html
+│   └── README.md
+└── structure.txt
+
+17 directories, 41 files

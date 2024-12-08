@@ -1,6 +1,18 @@
----
----
+@import "../_sass/base";
+@import "../_sass/color";
+@import "../_sass/footer";
+@import "../_sass/header";
 
-@import 'footer';
-@import 'base';
-@import 'header';
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1 {
+  color: #333;
+}
+
+textarea { 
+    resize: none;
+}
