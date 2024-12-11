@@ -1,4 +1,7 @@
-nav .breadcrumb-item a.black-link {
-    color: black !important;
-    text-decoration: none !important;
-}
+$primary-color: #f9c846;
+$secondary-color: #333;
+$text-color: black;
+$btn-bg-color: #333;
+$btn-border-color: $primary-color;
+$shadow-color: rgba(0, 0, 0, 0.1);
+$btn-hover-color: #f9c846;

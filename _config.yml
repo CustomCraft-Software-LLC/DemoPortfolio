@@ -8,9 +8,8 @@ permalink: /:year/:month/:day/:title
 plugins:
   - jekyll-feed
 sass:
+  sass_dir: assets/styles
   style: compressed
-  load_paths:
-    - _sass
 theme: minima
 exclude:
   - Gemfile

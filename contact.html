@@ -1,46 +1,39 @@
----
-layout: default
-title: Contact
-permalink: /contact
----
-
 <div class="container py-5">
     <section class="text-center mb-5">
-        <h1 class="display-4" style="color: #f9c846;">Contact</h1>
-        <p class="lead" style="color: black;">I'd love to hear from you! Whether you have a question, a project in mind, or just want to connect, feel free to reach out.</p>
+        <h1 class="display-4">Contact</h1>
+        <p class="lead">I'd love to hear from you! Whether you have a question, a project in mind, or just want to connect, feel free to reach out.</p>
     </section>
-
 
     <section class="row justify-content-center">
         <div class="col-md-8">
-            <form action="/submit" method="POST" class="p-4 rounded shadow" style="background-color: black;">
+            <form action="/submit" method="POST" class="p-4 rounded shadow form-bg">
                 <div class="mb-3">
-                    <label for="name" class="form-label" style="color: #f9c846;">Full Name</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required style="background-color: #333; color: white; border: 1px solid #f9c846;">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
                 </div>
 
                 <div class="mb-3">
-                    <label for="email" class="form-label" style="color: #f9c846;">Email Address</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required style="background-color: #333; color: white; border: 1px solid #f9c846;">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
                 </div>
 
                 <div class="mb-3">
-                    <label for="message" class="form-label" style="color: #f9c846;">Message</label>
-                    <textarea class="form-control" id="message" name="message" placeholder="Your Message" rows="4" required style="background-color: #333; color: white; border: 1px solid #f9c846; resize: none;"></textarea>
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
                 </div>
 
                 <div class="text-center">
-                    <button type="submit" class="btn btn-warning px-5" style="color: black; font-weight: bold;">Send Message</button>
+                    <button type="submit" class="btn btn-warning px-5">Send Message</button>
                 </div>
             </form>
         </div>
     </section>
 
     <section class="text-center mt-5">
-        <h5 style="color: #f9c846;">Alternatively, you can reach me via:</h5>
+        <h5>Alternatively, you can reach me via:</h5>
         <ul class="list-unstyled">
-            <li style="color: black;">Email: <a href="mailto:example@example.com" class="text-warning" style="text-decoration: none;">example@example.com</a></li>
-            <li style="color: black;">Phone: <a href="tel:+1234567890" class="text-warning" style="text-decoration: none;">+123 456 7890</a></li>
+            <li>Email: <a href="mailto:example@example.com">example@example.com</a></li>
+            <li>Phone: <a href="tel:+1234567890">+123 456 7890</a></li>
         </ul>
     </section>
 </div>

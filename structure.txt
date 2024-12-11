@@ -5,6 +5,8 @@
 │   ├── js
 │   │   └── modeTheme.js
 │   └── styles
+│       ├── main.css
+│       ├── main.css.map
 │       └── main.scss
 ├── blog.html
 ├── _config.yml
@@ -33,29 +35,6 @@
 │   ├── _color.scss
 │   ├── _footer.scss
 │   └── _header.scss
-├── _site
-│   ├── 2024
-│   │   └── 04
-│   │       └── 19
-│   │           ├── first.html
-│   │           └── welcome-to-jekyll.html
-│   ├── 404.html
-│   ├── about.html
-│   ├── assets
-│   │   ├── css
-│   │   │   └── style.css
-│   │   ├── js
-│   │   │   └── modeTheme.js
-│   │   └── styles
-│   │       └── main.css
-│   ├── blog.html
-│   ├── contact.html
-│   ├── feed.xml
-│   ├── git_log.txt
-│   ├── index.html
-│   ├── LICENSE
-│   ├── portfolio.html
-│   └── README.md
 └── structure.txt
 
-17 directories, 41 files
+9 directories, 28 files
