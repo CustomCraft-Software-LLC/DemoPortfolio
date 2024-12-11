@@ -6,26 +6,26 @@ permalink: /contact
 
 <div class="container py-5">
     <section class="text-center mb-5">
-        <h1 class="display-4 text-warning">Contact</h1>
+        <h1 class="display-4">Contact</h1>
         <p class="lead">I'd love to hear from you! Whether you have a question, a project in mind, or just want to connect, feel free to reach out.</p>
     </section>
 
     <section class="row justify-content-center">
         <div class="col-md-8">
-            <form action="/submit" method="POST" class="bg-secondary p-4 rounded shadow">
+            <form action="/submit" method="POST" class="p-4 rounded shadow">
                 <div class="mb-3">
-                    <label for="name" class="form-label text-light">Full Name</label>
-                    <input type="text" class="form-control bg-dark text-light border-warning" id="name" name="name" placeholder="Your Name" required>
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required style="background-color: #333; color: white; border: 1px solid #f9c846;">
                 </div>
 
                 <div class="mb-3">
-                    <label for="email" class="form-label text-light">Email Address</label>
-                    <input type="email" class="form-control bg-dark text-light border-warning" id="email" name="email" placeholder="Your Email" required>
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required style="background-color: #333; color: white; border: 1px solid #f9c846;">
                 </div>
 
                 <div class="mb-3">
-                    <label for="message" class="form-label text-light">Message</label>
-                    <textarea class="form-control bg-dark text-light border-warning" id="message" name="message" placeholder="Your Message" rows="4" resize="false" required></textarea>
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" placeholder="Your Message" rows="4" required style="background-color: #333; color: white; border: 1px solid #f9c846; resize: none;"></textarea>
                 </div>
 
                 <div class="text-center">
@@ -36,10 +36,10 @@ permalink: /contact
     </section>
 
     <section class="text-center mt-5">
-        <h5 class="text-warning">Alternatively, you can reach me via:</h5>
+        <h5>Alternatively, you can reach me via:</h5>
         <ul class="list-unstyled">
-            <li>Email: <a href="mailto:example@example.com" class="text-info">example@example.com</a></li>
-            <li>Phone: <a href="tel:+1234567890" class="text-info">+123 456 7890</a></li>
+            <li>Email: <a href="mailto:example@example.com" class="text-warning">example@example.com</a></li>
+            <li>Phone: <a href="tel:+1234567890" class="text-warning"">+123 456 7890</a></li>
         </ul>
     </section>
 </div>
