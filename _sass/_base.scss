@@ -1,6 +1,38 @@
+@import '_color';
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
+
+.text-primary {
+    color: $primary-color;
+  }
+  
+  .text-dark {
+    color: $text-color;
+  }
+  
+  .bg-dark {
+    background-color: $secondary-color;
+  }
+  
+  .input-dark {
+    background-color: $secondary-color;
+    color: white;
+    border: 1px solid $btn-border-color;
+  }
+  
+  .input-dark:focus {
+    border-color: darken($btn-border-color, 10%);
+    outline: none;
+  }
+  
+  .btn-submit {
+    color: black;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    box-shadow: 0 4px 6px $shadow-color;
+  }

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Contact
+permalink: /contact
+---
+
 <div class="container py-5">
     <section class="text-center mb-5">
         <h1 class="display-4">Contact</h1>
@@ -6,7 +12,7 @@
 
     <section class="row justify-content-center">
         <div class="col-md-8">
-            <form action="/submit" method="POST" class="p-4 rounded shadow form-bg">
+            <form action="/submit" method="POST" class="p-4 rounded shadow bg-dark form-contact">
                 <div class="mb-3">
                     <label for="name" class="form-label">Full Name</label>
                     <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
@@ -23,7 +29,7 @@
                 </div>
 
                 <div class="text-center">
-                    <button type="submit" class="btn btn-warning px-5">Send Message</button>
+                    <button type="submit" class="btn btn-warning btn-submit">Send Message</button>
                 </div>
             </form>
         </div>
@@ -32,8 +38,14 @@
     <section class="text-center mt-5">
         <h5>Alternatively, you can reach me via:</h5>
         <ul class="list-unstyled">
-            <li>Email: <a href="mailto:example@example.com">example@example.com</a></li>
-            <li>Phone: <a href="tel:+1234567890">+123 456 7890</a></li>
+            <li>
+                <strong>Email:</strong> 
+                <a href="mailto:example@example.com" class="text-decoration-none text-dark">example@example.com</a>
+            </li>
+            <li>
+                <strong>Phone:</strong> 
+                <a href="tel:+1234567890" class="text-decoration-none text-dark">+123 456 7890</a>
+            </li>
         </ul>
     </section>
 </div>
