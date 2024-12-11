@@ -4,29 +4,8 @@ body {
   padding: 0;
   background-color: #f4f4f4; }
 
-.text-primary {
-  color: #f9c846; }
-
-.text-dark {
-  color: black; }
-
-.bg-dark {
-  background-color: #333; }
-
-.input-dark {
-  background-color: #333;
-  color: white;
-  border: 1px solid #f9c846; }
-
-.input-dark:focus {
-  border-color: #f7b915;
-  outline: none; }
-
-.btn-submit {
-  color: black;
-  font-weight: bold;
-  padding: 0.5em 1em;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+button, a {
+  text-decoration: none !important; }
 
 footer {
   background-color: #333;

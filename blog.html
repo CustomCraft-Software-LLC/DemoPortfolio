@@ -5,28 +5,28 @@ permalink: /blog
 ---
 
 <div class="container py-5">
-    <div class="row">
-        <div class="col-12">
-            <h1 class="display-1 text-center mb-4">Blog</h1>
+    <div class="row mb-4">
+        <div class="col-12 text-center">
+            <h1 class="text-warning">Blog</h1>
         </div>
     </div>
 
     <div class="row">
         <div class="col-12">
-            <hr />
+            <hr class="my-4" />
             <ul class="list-group list-group-flush">
                 {% for post in site.posts %}
-                <li class="lh-lg list-group-item">
-                    <h2 class="h4">
-                        <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
+                <li class="list-group-item py-4 border-0">
+                    <h2 class="mb-2 text-warning">
+                        <a href="{{ post.url | relative_url }}" class="text-decoration-none text-warning">
                             {{ post.title }}
                         </a>
                     </h2>
-                    <p class="text-muted">{{ post.date | date: "%B %d, %Y" }}</p>
+                    <p class="text-warning mb-2">{{ post.date | date: "%B %d, %Y" }}</p>
                 </li>
+                <hr class="my-4" />
                 {% endfor %}
             </ul>
         </div>
     </div>
 </div>
-

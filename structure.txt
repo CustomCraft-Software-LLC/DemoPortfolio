@@ -27,14 +27,41 @@
 ├── LICENSE
 ├── portfolio.html
 ├── _posts
-│   ├── 2024-04-19-first.markdown
-│   └── 2024-04-19-welcome-to-jekyll.markdown
+│   ├── 2024-12-11-my-web-development-journey.md
+│   └── 2024-12-11-starting-post.md
 ├── README.md
 ├── _sass
 │   ├── _base.scss
 │   ├── _color.scss
 │   ├── _footer.scss
-│   └── _header.scss
+│   ├── _header.scss
+│   └── _typography.scss
+├── _site
+│   ├── 404.html
+│   ├── about.html
+│   ├── assets
+│   │   ├── js
+│   │   │   └── modeTheme.js
+│   │   ├── main.css
+│   │   ├── minima-social-icons.svg
+│   │   └── styles
+│   │       ├── main.css
+│   │       ├── main.css.map
+│   │       └── main.scss
+│   ├── blog
+│   │   └── 2024
+│   │       └── 12
+│   │           └── 11
+│   │               ├── my-web-development-journey.html
+│   │               └── starting-post.html
+│   ├── blog.html
+│   ├── contact.html
+│   ├── feed.xml
+│   ├── git_log.txt
+│   ├── index.html
+│   ├── LICENSE
+│   ├── portfolio.html
+│   └── structure.txt
 └── structure.txt
 
-9 directories, 28 files
+17 directories, 47 files
